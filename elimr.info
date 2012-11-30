@@ -1,0 +1,41 @@
+
+name = ElimR
+description = Drupal theme by <a href="http://rthur.me">Graeme Arthur</a>.
+screenshot = screenshot.png
+version = "7.x-1.3"
+core = 7.x
+project status url = http://aegir.rthur.me/fserver
+
+settings[tm_ac_youtube] = http://www.youtube.com
+settings[tm_ac_flickr] = http://www.flickr.com
+settings[tm_ac_facebook] = http://www.facebook.com
+
+
+regions[sidebar_right_top] = Sidebar
+regions[content] = Content
+regions[header_advert] = Header advert
+
+regions[category_slide_show] = Category Slide Show
+
+regions[home_slide_show] = Home Slide Show
+regions[home_content] = Home Content
+regions[home_category_one] = Home Category One
+regions[home_category_two] = Home Category Two
+regions[home_category_three] = Home Category Three
+regions[home_category_four] = Home Category Four
+
+regions[footer_one] = Footer One
+regions[footer_two] = Footer Two
+regions[footer_three] = Footer Three
+regions[footer_four] = Footer Four
+regions[footer_copyright] = Footer Copyright
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/superfish.js
+scripts[] = js/jquery.coda-slider-2.0.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/jquery.poshytip.min.js
+scripts[] = js/jquery-ui-1.8.5.custom.min.js
+scripts[] = js/custom.js
