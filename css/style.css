@@ -1325,8 +1325,6 @@ ul.pager a:hover
 	font-size:11px;
 	color:#666;
 	margin:0 0 25px 0;
-	display:none;
-
 }
 
 .single .breadcrumb, .page .breadcrumb {
@@ -1448,6 +1446,7 @@ ul.pager a:hover
 
 #content .file img{
 	display:none
+}
 
 /* Main Content continued -------------- */
 

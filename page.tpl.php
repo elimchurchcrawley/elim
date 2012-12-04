@@ -32,7 +32,6 @@ global $base_url;
         <div class="container_12">
             <div class="grid_8">
                 <div class="grid_8 alpha omega">
-                    <div class="breadcrumb"><?php print $breadcrumb; ?></div>
                     <div class="description">
                         <?php if (isset($messages)) { print $messages; } ?>
                         <h1><?php print $title; ?></h1>
