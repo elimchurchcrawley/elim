@@ -78,7 +78,6 @@ global $base_url;
                 <div class="widget-twitter" data-username="<?php print theme_get_setting('tm_ac_twitter') ?>" data-count="2" data-retweets="true">
                   <div class="tweets"></div>
                 </div>
-                <?php print ElimR_tw_js(); ?>
               </div><!--widget-->
               <?php if (isset($page['footer_two'])) { echo render($page['footer_two']); } ?>
             </div><!--grid_3-->

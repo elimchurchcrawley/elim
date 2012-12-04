@@ -68,12 +68,11 @@ global $base_url;
         <div class="container_12">
             <div class="grid_3"><?php if (isset($page['footer_one'])) { echo render($page['footer_one']); } ?></div>
             <div class="grid_3">
-              <div class="widget">
+                <div class="widget">
                 <h4><span><?php print t('Twitter'); ?></span></h4>
                 <div class="widget-twitter" data-username="<?php print theme_get_setting('tm_ac_twitter') ?>" data-count="2" data-retweets="true">
                   <div class="tweets"></div>
                 </div>
-                <?php print ElimR_tw_js(); ?>
               </div><!--widget-->
               <?php if (isset($page['footer_two'])) { echo render($page['footer_two']); } ?>
             </div><!--grid_3-->
