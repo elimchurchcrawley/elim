@@ -809,7 +809,7 @@ pre {
 
 #footer li.last{
 	border-bottom:none;
-	padding-bottom:0;
+	padding-bottom:5;
 }
 
 /* Sidebar -------------------------------------------------------------------- */
