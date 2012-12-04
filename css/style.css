@@ -324,44 +324,6 @@ pre {
 	z-index:1;
 }
 
-/* @group Attachments table */
-table.attachments caption {
-  display: none;
-}
-table.attachments {
-  border-color: #CCC;
-  border-width: 1px;
-  border-style: solid none none solid;
-  width: auto;
-}
-table.attachments thead { border: 1px solid #CCC }
-table.attachments td {
-  line-height: 24px; padding: 0;
-  border-right: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
-}
-table.attachments tr {
-  border-right: 1px solid #CCC;
-}
-table.attachments td a {
-	line-height: 24px;
-	padding: 0 26px;
-	background-position: 5px;
-	background-repeat: no-repeat;
-}
-table.attachments th {
-  background-color: #F2F2F2;
-  font-weight: normal;
-  font-family: Arial, Helvetica, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  font-size: 77%;
-}
-table.attachments td.size {
-  padding: 0 5px;
-  font-family: Arial, Helvetica, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-  font-size: 77%;
-  color: #404040;
-  font-style: normal;
-}
 
 /* Slider -------------- */
 
@@ -1442,10 +1404,15 @@ ul.pager a:hover
 	vertical-align: middle;
 }
 
-  /* fix for attachment -------------- */
+  /* fix for attachment table--------- */
 
 #content .file img{
 	display:none
+}
+
+#content .file a{
+	padding:5px 0 0 0;
+	margin:0px 50px 0px 0px;
 }
 
 /* Main Content continued -------------- */
