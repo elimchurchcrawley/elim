@@ -604,3 +604,11 @@ function ElimR_truncate_utf8($string, $len, $wordsafe = FALSE, $dots = FALSE, &$
 }
 
 
+function elim_more_link ($array)
+/* facebook read more link removal*/
+{
+   if (stristr( $array['url'], 'aggregator'))
+   {
+      return "";
+   }
+}
