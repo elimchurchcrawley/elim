@@ -1,0 +1,1 @@
+<a class="tooltip" title="<?php print $fields['title']->content; ?>" href="<?php print $fields['path']->content; ?>"><?php if (isset($fields['field_image']->content)) print $fields['field_image']->content; ?></a>

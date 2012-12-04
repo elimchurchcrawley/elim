@@ -7,7 +7,7 @@ global $base_url;
                 <div class="grid_3">
                 </div><!--grid_3-->
                 <div class="grid_9">
-                    <div id="second_nav"><?php print elim_user_menu_top($logged_in, $front_page) ?></div>
+                    <div id="second_nav"><?php print ElimR_user_menu_top($logged_in, $front_page) ?></div>
                 </div><!--grid_9-->
                 <div class="clear"></div>
             </div><!--container_12-->
@@ -21,7 +21,7 @@ global $base_url;
                   <div id="header_advert"><?php if (isset($page['header_advert'])) { echo render($page['header_advert']); } ?></div>
                 </div><!--grid_7-->
                 <div class="grid_12">
-                    <div id="nav"><?php print elim_user_menu_cat() ?><div class="clear"></div></div>
+                    <div id="nav"><?php print ElimR_user_menu_cat() ?><div class="clear"></div></div>
                 </div><!--grid_12-->
                 <div class="clear"></div>
             </div><!--container_12-->
@@ -36,7 +36,6 @@ global $base_url;
                     <div class="description">
                         <?php if (isset($messages)) { print $messages; } ?>
                         <h1><?php print $title; ?></h1>
-                        <?php print render($title_suffix); ?>
                     </div><!--description-->
                     <?php if($tabs) { print render($tabs); } ?>
                 </div><!--grid_8 alpha omeg-->
@@ -50,15 +49,19 @@ global $base_url;
                 </div><!--grid_8 alpha omega-->
             </div><!--grid_8-->
 
-            <div class="grid_4">
+            <div class="grid_4m">
 				        <div id="sidebar">
+				         <div class="m1">
                   <?php if (isset($page['sidebar_right_top'])) { echo render($page['sidebar_right_top']); } ?>
-                  <?php if (isset($page['sidebar_right_tab'])) { render($page['sidebar_right_tab']); print elim_set_tabs(false, false, false, true); } ?>
+                  <?php if (isset($page['sidebar_right_tab'])) { render($page['sidebar_right_tab']); print ElimR_set_tabs(false, false, false, true); } ?>
+                 </div>
+                 <div class="m2"> 
                   <?php if (isset($page['sidebar_right_bottom'])) { echo render($page['sidebar_right_bottom']); } ?>
                   <div class="widget">
                     <?php if (isset($page['sidebar_right_bottom_half_1'])) { echo '<div class="half">'.render($page['sidebar_right_bottom_half_1']).'</div>'; } ?>
                     <?php if (isset($page['sidebar_right_bottom_half_2'])) { echo '<div class="half last">'.render($page['sidebar_right_bottom_half_2']).'</div>'; } ?>
                   </div>
+                 </div>
                 </div><!--sidebar-->
             </div><!--grid_4-->
             <div class="clear"></div>
@@ -72,8 +75,10 @@ global $base_url;
             <div class="grid_3">
               <div class="widget">
                 <h4><span><?php print t('Twitter'); ?></span></h4>
-                <ul id="twitter_update_list"></ul>
-                <?php print elim_tw_js(); ?>
+                <div class="widget-twitter" data-username="<?php print theme_get_setting('tm_ac_twitter') ?>" data-count="2" data-retweets="true">
+                  <div class="tweets"></div>
+                </div>
+                <?php print ElimR_tw_js(); ?>
               </div><!--widget-->
               <?php if (isset($page['footer_two'])) { echo render($page['footer_two']); } ?>
             </div><!--grid_3-->

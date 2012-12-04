@@ -1,7 +1,7 @@
 <?php 
 if (!$page) { 
 ?>
-<div class="articles<?php //print (elim_article_first() ? '' : ' first')?>">
+<div class="articles<?php //print (ElimR_article_first() ? '' : ' first')?>">
 <div class="image"><?php print render($content['field_image']); ?></div>
                                 
 <div class="details">

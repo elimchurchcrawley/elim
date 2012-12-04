@@ -19,7 +19,7 @@ if ($n1) {
 
   <div id="slider_nav">
     <div id="coda-nav-1" class="coda-nav">
-      <?php print elim_slide_img(false, true); ?>
+      <?php print ElimR_slide_img(false, true); ?>
     </div>
   </div>
   <div class="clear"></div>

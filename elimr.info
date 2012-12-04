@@ -1,8 +1,8 @@
 
-name = Elim
+name = ElimR
 description = Drupal theme by <a href="http://rthur.me">Graeme Arthur</a>.
 screenshot = screenshot.png
-version = "7.x-1.0"
+version = "7.x-1.3"
 core = 7.x
 project status url = http://aegir.rthur.me/fserver
 
@@ -39,3 +39,4 @@ scripts[] = js/jquery.easing.1.3.js
 scripts[] = js/jquery.poshytip.min.js
 scripts[] = js/jquery-ui-1.8.5.custom.min.js
 scripts[] = js/custom.js
+scripts[] = js/jquery.tweet.min.js

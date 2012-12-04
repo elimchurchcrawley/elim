@@ -2,24 +2,6 @@
 
 jQuery(document).ready(function() {
 	
-	// Secondary Navigation
-	jQuery("ul.sf-menu").superfish({
-		delay: 500,
-		animation: {opacity:'show'},
-		speed: 200,
-		autoArrows: false,
-		dropShadows: false
-	}); 
-	
-	// Main Navigation
-	jQuery('#nav ul.sf-menu').superfish({ 
-		delay: 200,
-		animation: {opacity:'show', height:'show'},
-		speed: 'fast',
-		autoArrows: false,
-		dropShadows: false
-	});
-	
 	// Coda Slider
 	jQuery('#coda-slider-1').codaSlider({
 		dynamicArrows: false,

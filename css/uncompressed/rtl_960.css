@@ -26,7 +26,6 @@
 .grid_6,
 .grid_7,
 .grid_8,
-.grid_wide
 .grid_9,
 .grid_10,
 .grid_11,
@@ -116,9 +115,7 @@
 .container_12 .grid_8 {
 	width: 620px;
 }
-.container_12 .grid_wide {
-	width: 960px;
-}
+
 .container_12 .grid_10 {
 	width: 780px;
 }
