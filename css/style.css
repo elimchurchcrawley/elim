@@ -1371,6 +1371,21 @@ ul.pager a:hover
 
 /* Main Content -------------- */
 
+/* fix for admin menu */
+
+#admin-menu {
+-webkit-box-shadow: 8px 2px 16px #000000;
+-moz-box-shadow: 8px 2px 16px #000000;
+box-shadow: 8px 2px 16px #000000;
+font: small "Lucida Grande",Verdana,sans-serif;
+margin: 0 0 0 -20px;
+padding: 0 0 0 20px;
+right: 0;
+width: auto;
+}
+
+
+
 /* Section added to fix podcast page (copied from 1.x version) */
 
 .view th {
