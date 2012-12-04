@@ -603,8 +603,7 @@ function ElimR_truncate_utf8($string, $len, $wordsafe = FALSE, $dots = FALSE, &$
   return $string;
 }
 
-
-function elim_more_link ($array)
+function elimR_more_link ($array)
 /* facebook read more link removal*/
 {
    if (stristr( $array['url'], 'aggregator'))

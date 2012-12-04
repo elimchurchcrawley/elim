@@ -1370,6 +1370,44 @@ ul.pager a:hover
 
 /* Main Content -------------- */
 
+  /* 
+  		Section added to fix podcast page (copied from 1.x version)
+  */
+.view th {
+ text-align: center;
+}
+
+.view table{
+	width:940px;
+	border:3px;
+	padding: 6px;
+	text-align: center;
+}
+
+.view tr {	
+	border:3px;
+	padding: 10px;
+ }
+
+.view td {
+	border:3px;
+	padding: 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.view img {
+	vertical-align:text-top;
+}
+
+.view mediaelement-audio{
+	vertical-align: middle;
+}
+
+  /* 
+  		END Podcast page section
+  */
+
 .single #content, .page #content {
 	width: 610px;
 }
@@ -1940,43 +1978,6 @@ background: url(../images/arrow_exp_active_a.png) no-repeat right top;
 }
 
 @media only screen and (min-width: 740px) and (max-width: 979px) { /* <= Tablet */
-  /* 
-  		Section added to fix podcast page (copied from 1.x version)
-  */
-.view th {
- text-align: center;
-}
-
-.view table{
-	width:940px;
-	border:3px;
-	padding: 6px;
-	text-align: center;
-}
-
-.view tr {	
-	border:3px;
-	padding: 10px;
- }
-
-.view td {
-	border:3px;
-	padding: 6px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.view img {
-	vertical-align:text-top;
-}
-
-.view mediaelement-audio{
-	vertical-align: middle;
-}
-
-  /* 
-  		END Podcast page section
-  */
 
   #top {
     height:85px;
