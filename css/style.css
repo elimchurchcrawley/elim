@@ -1,10 +1,10 @@
 /*
-Theme Name: Repro
-Theme URL: http://www.premiumpixels.com
-Description: A HTML Template
-Author: Orman Clark
-Author URI: http://www.premiumpixels.com
-Version: 1.0
+Theme Name: Elim
+Theme URL: http://elim-church.org.uk
+Description: Elim Church Crawley Theme
+Author: Graeme Arthur
+Author URL: http://rthur.me
+Version: 2.x
 */
 
 /* Import stuff -------------------------------------------------------------- */
@@ -121,7 +121,7 @@ pre {
 /* Secondary Nav -------------- */
 
 #second_nav{
-	float:right;
+	float:left;
 	font-style:normal;
 	padding:11px 0 0 0;
 }
@@ -384,6 +384,7 @@ pre {
 	color:#8c8989;
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6);
 	margin: 2px 0 12px 0;
+	visibility:hidden;
 }
 
 #slider .date a:hover{
@@ -405,9 +406,9 @@ pre {
 	font-weight: normal;
 	color:#dddddd;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
-	font-size:19px;
+	font-size:25px;
 	margin:0 0 8px 0;
-	line-height:26px;
+	line-height:28px;
 }
 
 #slider .header h2 a{
@@ -421,8 +422,8 @@ pre {
 #slider .excerpt{
 	color:#aeaeae;
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6);
-	line-height:21px;
-	font-size:12px;
+	line-height:24px;
+	font-size:14px;
 	
 	/*IE 6 bug fix */
 	margin-right:-3px;
@@ -823,7 +824,7 @@ pre {
 
 #sidebar .widget{
 	float:left;
-	margin:0 0 35px 0;
+	margin:0 0 5px 0;
 	width:300px;
 }
 
@@ -1939,6 +1940,44 @@ background: url(../images/arrow_exp_active_a.png) no-repeat right top;
 }
 
 @media only screen and (min-width: 740px) and (max-width: 979px) { /* <= Tablet */
+  /* 
+  		Section added to fix podcast page (copied from 1.x version)
+  */
+.view th {
+ text-align: center;
+}
+
+.view table{
+	width:940px;
+	border:3px;
+	padding: 6px;
+	text-align: center;
+}
+
+.view tr {	
+	border:3px;
+	padding: 10px;
+ }
+
+.view td {
+	border:3px;
+	padding: 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.view img {
+	vertical-align:text-top;
+}
+
+.view mediaelement-audio{
+	vertical-align: middle;
+}
+
+  /* 
+  		END Podcast page section
+  */
+
   #top {
     height:85px;
   }
