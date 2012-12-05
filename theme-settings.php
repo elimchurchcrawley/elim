@@ -1,6 +1,6 @@
 <?php
 
-function ElimR_form_system_theme_settings_alter(&$form, $form_state) {
+function Elim_form_system_theme_settings_alter(&$form, $form_state) {
 
   $form['advansed_theme_settings'] = array(
     '#type' => 'fieldset',

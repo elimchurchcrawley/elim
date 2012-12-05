@@ -15,4 +15,4 @@
     <div class="excerpt"><?php print $fields['body']->content; ?></div>
   </div>
 </div>
-<?php if (isset($fields['field_image_1']->content)) ElimR_cslide_img($fields['field_image_1']->content); ?>
+<?php if (isset($fields['field_image_1']->content)) Elim_cslide_img($fields['field_image_1']->content); ?>

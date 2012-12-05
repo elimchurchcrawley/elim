@@ -7,7 +7,7 @@ global $base_url;
                 <div class="grid_3">
                 </div><!--grid_3-->
                 <div class="grid_9">
-                    <div id="second_nav"><?php print ElimR_user_menu_top($logged_in, $front_page) ?></div>
+                    <div id="second_nav"><?php print Elim_user_menu_top($logged_in, $front_page) ?></div>
                 </div><!--grid_9-->
                 <div class="clear"></div>
             </div><!--container_12-->
@@ -21,7 +21,7 @@ global $base_url;
                   <div id="header_advert"><?php if (isset($page['header_advert'])) { echo render($page['header_advert']); } ?></div>
                 </div><!--grid_7-->
                 <div class="grid_12">
-                    <div id="nav"><?php print ElimR_user_menu_cat() ?><div class="clear"></div></div>
+                    <div id="nav"><?php print Elim_user_menu_cat() ?><div class="clear"></div></div>
                 </div><!--grid_12-->
                 <div class="clear"></div>
             </div><!--container_12-->
@@ -48,7 +48,7 @@ global $base_url;
 				        <div id="sidebar">
 				         <div class="m1">
                   <?php if (isset($page['sidebar_right_top'])) { echo render($page['sidebar_right_top']); } ?>
-                  <?php if (isset($page['sidebar_right_tab'])) { render($page['sidebar_right_tab']); print ElimR_set_tabs(false, false, false, true); } ?>
+                  <?php if (isset($page['sidebar_right_tab'])) { render($page['sidebar_right_tab']); print Elim_set_tabs(false, false, false, true); } ?>
                  </div> 
                  <div class="m2">
                   <?php if (isset($page['sidebar_right_bottom'])) { echo render($page['sidebar_right_bottom']); } ?>

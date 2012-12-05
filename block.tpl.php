@@ -25,7 +25,7 @@ if ($block->region == 'home_content') {
 	$out .= $content;
   $out .= '</div>';
 } elseif ($block->region == 'sidebar_right_tab') {
-  ElimR_set_tabs($block->bid, $block->subject, '<div id="'.$block_html_id.'" class="'.$classes.'"'.$attributes.'>'.render($title_prefix).render($title_suffix).'<div class="tt1">'.$content.'</div></div>');
+  Elim_set_tabs($block->bid, $block->subject, '<div id="'.$block_html_id.'" class="'.$classes.'"'.$attributes.'>'.render($title_prefix).render($title_suffix).'<div class="tt1">'.$content.'</div></div>');
 } elseif ($block->region == 'sidebar_right_bottom_half_1' or $block->region == 'sidebar_right_bottom_half_2') {
   $out .= '<div id="'.$block_html_id.'" class="'.$classes.'"'.$attributes.'>';
   $out .= render($title_prefix);

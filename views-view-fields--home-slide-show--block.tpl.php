@@ -6,4 +6,4 @@
     <div class="excerpt"><?php print $fields['body']->content; ?></div>
   </div>
 </div>
-<?php if (isset($fields['views_collapsing']->content)) ElimR_slide_img($fields['views_collapsing']->content); ?>
+<?php if (isset($fields['views_collapsing']->content)) Elim_slide_img($fields['views_collapsing']->content); ?>

@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 });
 ', array('type' => 'inline',  'scope' => 'footer', 'weight' => 5));
 
-function ElimR_breadcrumb($breadcrumb) {
+function Elim_breadcrumb($breadcrumb) {
   /*//drupal_set_message('<pre>'. check_plain(print_r($breadcrumb, 1)) .'</pre>');
   if (!empty($breadcrumb['breadcrumb'])) {
 	  $out = '';
@@ -87,58 +87,58 @@ function ElimR_breadcrumb($breadcrumb) {
   } */
 }
 
-function ElimR_article_first() {
+function Elim_article_first() {
   static $res = 0;
   $out = $res;
   $res = 1;
 	return $out;
 }
 
-function ElimR_related_last() {
+function Elim_related_last() {
   static $res = 0;
   $res = $res + 1;
 	return (($res == 4) ? ' last' : '' );
 }
 
-function ElimR_popular_last() {
+function Elim_popular_last() {
   static $res = 0;
   if ($res == 5) $res = 0;
   $res = $res + 1;
 	return (($res == 5) ? ' class="last"' : '' );
 }
 
-function ElimR_recent_last() {
+function Elim_recent_last() {
   static $res = 0;
   $res = $res + 1;
 	return (($res == 5) ? ' class="last"' : '' );
 }
 
-function ElimR_comment_last() {
+function Elim_comment_last() {
   static $res = 0;
   $res = $res + 1;
 	return (($res == 5) ? ' class="last"' : '' );
 }
 
-function ElimR_postgrid_last() {
+function Elim_postgrid_last() {
   static $res = 0;
   if ($res == 8) $res = 0;
   $res = $res + 1;
 	return (($res == 8) ? ' class="last"' : '' );
 }
 
-function ElimR_latestposts_last() {
+function Elim_latestposts_last() {
   static $res = 0;
   $res = $res + 1;
 	return (($res == 3) ? ' last' : '' );
 }
 
-function ElimR_latestpostsc_last() {
+function Elim_latestpostsc_last() {
   static $res = 0;
   $res = $res + 1;
 	return (($res == 3) ? ' last' : '' );
 }
 
-function ElimR_slide_img($content, $isout = false) {
+function Elim_slide_img($content, $isout = false) {
   static $res = '';
   static $res1 = 1;
   if ($content) {
@@ -150,7 +150,7 @@ function ElimR_slide_img($content, $isout = false) {
   }
 }
 
-function ElimR_cslide_img($content, $isout = false) {
+function Elim_cslide_img($content, $isout = false) {
   static $res = '';
   static $res1 = 1;
   if ($content) {
@@ -163,19 +163,19 @@ function ElimR_cslide_img($content, $isout = false) {
 }
 
 
-function ElimR_set_bic($j) {
+function Elim_set_bic($j) {
   $blocks = block_get_blocks_by_region('banner_in_category_'.$j);
   $block = render($blocks);
   return $block;
 }
 
-function ElimR_set_suggestions() {
+function Elim_set_suggestions() {
   $blocks = block_get_blocks_by_region('suggestions');
   $block = render($blocks);
   return $block;
 }
 
-function ElimR_pager($variables) {
+function Elim_pager($variables) {
   $tags = $variables['tags'];
   $element = $variables['element'];
   $parameters = $variables['parameters'];
@@ -286,7 +286,7 @@ function ElimR_pager($variables) {
 
 
 
-function ElimR_set_tabs($bid, $title, $content, $isout = false) {
+function Elim_set_tabs($bid, $title, $content, $isout = false) {
   static $tabs = array();
   if ($bid) {
     $tabs[$bid]->bid = $bid;
@@ -310,7 +310,7 @@ function ElimR_set_tabs($bid, $title, $content, $isout = false) {
   }
 }
 
-function ElimR_set_home_video_right($bid, $title, $content, $isout = FALSE) {
+function Elim_set_home_video_right($bid, $title, $content, $isout = FALSE) {
   global $base_url;
   static $tabs = array();
   if ($bid) {
@@ -321,7 +321,7 @@ function ElimR_set_home_video_right($bid, $title, $content, $isout = FALSE) {
   if ($isout and isset($tabs) and is_array($tabs)) {
 	$out_t = '';
 	$out_c = '';
-  $out_v = ElimR_set_home_video_left(FALSE, TRUE);
+  $out_v = Elim_set_home_video_left(FALSE, TRUE);
 	$i = 0;
 	foreach ($tabs as $data) {
 		if (!$i) $ac = ' class="selected"'; else  $ac = '';
@@ -333,7 +333,7 @@ function ElimR_set_home_video_right($bid, $title, $content, $isout = FALSE) {
   }
 }
 
-function ElimR_set_home_video_left($content, $isout = false) {
+function Elim_set_home_video_left($content, $isout = false) {
   static $res = '';
   if ($content) {
     $res .= $content;
@@ -343,7 +343,7 @@ function ElimR_set_home_video_left($content, $isout = false) {
   }
 }
 
-function ElimR_top($type = 'search') {
+function Elim_top($type = 'search') {
 
  $header = array(
     array('data' => t('Count'), 'field' => 'count', 'sort' => 'desc'),
@@ -375,7 +375,7 @@ function ElimR_top($type = 'search') {
 }
 
 
-function ElimR_set_background($content, $isout = false) {
+function Elim_set_background($content, $isout = false) {
   static $res = '';
   if ($content) {
     $res = $content;
@@ -386,7 +386,7 @@ function ElimR_set_background($content, $isout = false) {
   }
 }
 
-function ElimR_get_background($bundle, $field_name = 'field_background', $entity_type = 'taxonomy_term') {
+function Elim_get_background($bundle, $field_name = 'field_background', $entity_type = 'taxonomy_term') {
   $datadef = unserialize(
     db_select('field_config', 'f')
     ->fields('f', array('data'))
@@ -414,7 +414,7 @@ $datacur = unserialize(db_select('field_config_instance', 'f')
   return $out;
 }
 
-function ElimR_get_count_nodes($type = 'video') {
+function Elim_get_count_nodes($type = 'video') {
   $n = db_select('node');
   $n->addExpression('COUNT(nid)', 'count');
   $n->condition('type', $type);
@@ -426,7 +426,7 @@ function ElimR_get_count_nodes($type = 'video') {
 
 
 
-function ElimR_user_menu_top($logged_in, $front_page) {
+function Elim_user_menu_top($logged_in, $front_page) {
   global $user;
   $output = '';
   //<li><a href="#">Mature Warning: On</a></li>
@@ -437,35 +437,35 @@ function ElimR_user_menu_top($logged_in, $front_page) {
     $output .= '<li>'.l('Log out','user/logout').'</li>';
     $output .= '<li class="last">'.l('Account','user/'.$user->uid).'</li>';
   }
-  return '<ul class="sf-menu">'.ElimR_tree_m1().$output .'</ul>';
+  return '<ul class="sf-menu">'.Elim_tree_m1().$output .'</ul>';
 }
 
-function ElimR_user_menu_cat() {
-  return '<ul class="sf-menu">'.ElimR_tree_m0().'</ul>';
+function Elim_user_menu_cat() {
+  return '<ul class="sf-menu">'.Elim_tree_m0().'</ul>';
 }
 
-function ElimR_tree_m0($menu_name = 'main-menu', $type = '') {
+function Elim_tree_m0($menu_name = 'main-menu', $type = '') {
   static $menu_output = array();
 
   if (!isset($menu_output[$menu_name])) {
     $tree = menu_tree_page_data($menu_name);
-    $menu_output[$menu_name] = ElimR_tree_output_m0($tree,$type);
+    $menu_output[$menu_name] = Elim_tree_output_m0($tree,$type);
   }
   return $menu_output[$menu_name];
 }
 
-function ElimR_tree_m1($menu_name = 'secondary-menu', $type = '') {
+function Elim_tree_m1($menu_name = 'secondary-menu', $type = '') {
   static $menu_output = array();
 
   if (!isset($menu_output[$menu_name])) {
     $tree = menu_tree_page_data($menu_name);
-    $menu_output[$menu_name] = ElimR_tree_output_m0($tree,$type);
+    $menu_output[$menu_name] = Elim_tree_output_m0($tree,$type);
   }
   return $menu_output[$menu_name];
 }
 
 
-function ElimR_tree_output_m0($tree,$type) {
+function Elim_tree_output_m0($tree,$type) {
   $output = '';
   $items = array();
   foreach ($tree as $data) {
@@ -479,7 +479,7 @@ function ElimR_tree_output_m0($tree,$type) {
 	  //if ($data['link']['in_active_trail']) $a = ' class="active"'; else $a = '';
     //if ($data['link']['link_path'] == '<front>') $d = ' id="menu_home"'; else $d = '';
     if ($data['below']) {
-	  $output .= '<li class="innn"><a href="'.url($data['link']['href']).'" class="inna">'.$data['link']['title'].'</a><ul>'.ElimR_tree_output_m0($data['below'],$type)."</ul></li>";
+	  $output .= '<li class="innn"><a href="'.url($data['link']['href']).'" class="inna">'.$data['link']['title'].'</a><ul>'.Elim_tree_output_m0($data['below'],$type)."</ul></li>";
     }
     else {
 	  $output .= '<li><a href="'.url($data['link']['href']).'">'.$data['link']['title'].'</a>'."</li>";
@@ -488,7 +488,7 @@ function ElimR_tree_output_m0($tree,$type) {
   return $output ?  $output : '';
 }
 
-function ElimR_tw_js() {
+function Elim_tw_js() {
 	return '
 	<script type="text/javascript">
 	(function ($) {
@@ -513,11 +513,11 @@ function ElimR_tw_js() {
 
 
 
-function ElimR_menu_tree($tree) {
+function Elim_menu_tree($tree) {
   return '<ul>'. $tree['tree'] .'</ul>';
 }
 
-function ElimR_menu_link(array $variables) {
+function Elim_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
   if ($element['#below']) {
@@ -535,13 +535,13 @@ function ElimR_menu_link(array $variables) {
  * @ingroup themeable
  */
  
-function ElimR_menu_item($link, $has_children, $menu = '', $in_active_trail = FALSE, $extra_class = NULL) {
+function Elim_menu_item($link, $has_children, $menu = '', $in_active_trail = FALSE, $extra_class = NULL) {
   return '<li>'. $link . $menu ."</li>\n";
 }
 
 
 /* Node */
-function ElimR_get_node($type = 'type') {
+function Elim_get_node($type = 'type') {
 	static $node = false;
 	if (!$node and arg(0) == 'node' and is_numeric(arg(1))){
 		$node = db_fetch_array(db_query('SELECT * FROM {node} where nid = %d',arg(1)));
@@ -549,7 +549,7 @@ function ElimR_get_node($type = 'type') {
   return $node[$type];
 }
 
-function ElimR_get_node_style() {
+function Elim_get_node_style() {
 	static $node = false;
 	if (!isset($node) and arg(0) == 'node' and is_numeric(arg(1)) and !arg(2)){
 		$node = node_load(arg(1));
@@ -560,7 +560,7 @@ function ElimR_get_node_style() {
 }
 
 /*
-function ElimR_get_tax_link($vid = 1) {
+function Elim_get_tax_link($vid = 1) {
 	$out = '';
 	$result = db_query('SELECT * FROM {term_data} where vid = %d',$vid);
 	while ($term = db_fetch_object($result)) {
@@ -570,7 +570,7 @@ function ElimR_get_tax_link($vid = 1) {
 }
 */
 
-function ElimR_truncate_utf8($string, $len, $wordsafe = FALSE, $dots = FALSE, &$ll = 0) {
+function Elim_truncate_utf8($string, $len, $wordsafe = FALSE, $dots = FALSE, &$ll = 0) {
 
   if (drupal_strlen($string) <= $len) {
     return $string;
@@ -603,7 +603,7 @@ function ElimR_truncate_utf8($string, $len, $wordsafe = FALSE, $dots = FALSE, &$
   return $string;
 }
 
-function elimR_more_link ($array)
+function Elim_more_link ($array)
 /* facebook read more link removal*/
 {
    if (stristr( $array['url'], 'aggregator'))
