@@ -2021,6 +2021,7 @@ background: url(../images/arrow_exp_active_a.png) no-repeat right top;
   }
   #logo {
     padding-bottom: 10px;
+    padding-top: 10px
   }
   #nav {
     border:none;

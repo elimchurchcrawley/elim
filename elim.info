@@ -29,6 +29,7 @@ regions[footer_two] = Footer Two
 regions[footer_three] = Footer Three
 regions[footer_four] = Footer Four
 regions[footer_copyright] = Footer Copyright
+regions[footer_ea] = Footer EA Logo
 
 stylesheets[all][] = css/style.css
 
