@@ -84,7 +84,7 @@ global $base_url;
         <div id="footer_bottom">
             <div class="container_12">
                 <div class="grid_6"><?php if (isset($page['footer_copyright'])) { echo render($page['footer_copyright']); } ?></div>
-                <div class="grid_6"><p class="right"></p></div>
+                <div class="grid_6"><?php if (isset($page['footer_ea'])) { echo render($page['footer_ea']); } ?></div>
                 <div class="clear"></div>
             </div><!--container_12-->
     	</div><!--footer_bottom-->
