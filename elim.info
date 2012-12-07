@@ -2,7 +2,7 @@
 name = Elim
 description = Drupal theme by <a href="http://rthur.me">Graeme Arthur</a>.
 screenshot = screenshot.png
-version = "7.x-1.4"
+version = "7.x-1.5"
 core = 7.x
 project = elim
 project status url = http://aegir.rthur.me/fserver
