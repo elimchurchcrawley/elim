@@ -1,0 +1,74 @@
+name = Candidate Drupal Theme
+description = Responsive Drupal 7 Theme by Arrowhitech JSC. 
+core = 7.x
+engine = phptemplate
+version = 1.0
+
+stylesheets[all][]        = css/bootstrap.min.css
+stylesheets[all][]        = css/fontello.css
+stylesheets[all][]        = css/flexslider.css
+stylesheets[all][]        = css/owl.carousel.css
+stylesheets[all][]        = css/responsive-calendar.css
+stylesheets[all][]        = css/chosen.css
+stylesheets[all][]        = jackbox/css/jackbox.min.css
+stylesheets[all][]        = css/cloud-zoom.css
+stylesheets[all][]        = css/colorpicker.css
+stylesheets[all][]        = css/style.css
+stylesheets[all][]        = css/custom.css
+
+scripts[] = js/jquery-ui-1.10.4.min.js
+scripts[] = js/jquery.queryloader2.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/modernizr.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/responsive-calendar.min.js
+scripts[] = js/jquery.raty.min.js
+scripts[] = js/chosen.jquery.min.js
+scripts[] = js/instafeed.min.js
+scripts[] = php/twitter/jquery.tweet.js
+scripts[] = js/jquery.mixitup.js
+scripts[] = jackbox/js/jackbox-packed.min.js
+scripts[] = js/zoomsl-3.0.min.js
+scripts[] = js/colorpicker.js
+scripts[] = js/custom.js
+scripts[] = js/script.js
+
+
+regions[header_right]        		= Header Right
+regions[menu]        			= Menu
+regions[search]        			= Search Form
+regions[cart]        			= Shopping Cart
+regions[slide_show]        	= Slide Show
+regions[before_content]        	= Before Content
+regions[content]        		= Content
+regions[after_content]        	= After Content
+regions[sidebar_right]			= Sidebar Right
+regions[sidebar_left]			= Sidebar Left
+regions[footer_box1]        	= Footer Box 1
+regions[footer_box2]        	= Footer Box 2
+regions[footer_box3]        	= Footer Box 3
+regions[footer_box4]        	= Footer Box 4
+regions[footer_bottom]        	= Footer Bottom
+
+; Define theme setting defaults.
+settings[loader] = 1
+settings[switcher] = 1
+settings[facebook] = #
+settings[twitter] = #
+settings[google_plus] = #
+settings[rss] = #
+settings[pinterest] = #
+settings[instagram] = #
+settings[linkedin] = #
+settings[vimeo] = #
+settings[youtube] = #
+settings[flickr] = #
+settings[envelope] = #
+settings[breadcrumbs] = 0
+settings[animation] = 0
+settings[layout_option] = wide
+settings[background_type] = color
+settings[background_color] = #FFFFFF
+settings[background_image] = bg2
+settings[color_option] = main-color

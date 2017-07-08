@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file:$MODULE_DIR$/../../../../../../../../$MODULE_DIR$" />
+    <content url="file:$MODULE_DIR$/../../../../../../../../192.168.1.23/atdev/candidate/sites/all/themes/candidate/templates" />
+    <content url="file:C:/192.168.1.23/atdev/candidate/sites/all/themes/candidate/templates" />
+    <content url="file:C:/C:/wamp/www/candidate/sites/all/themes/candidate/templates" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

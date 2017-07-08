@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd87f746-c5ce-42b4-aafc-57ed1737e351" name="Default" comment="" />
+    <ignored path="css.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="css" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="html.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../templates/html.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="627" column="43" selection-start="24206" selection-end="24206" vertical-scroll-proportion="0.48601398" vertical-offset="10381" max-vertical-offset="12325">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidate.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../candidate.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="23" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grey.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color/grey.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="38" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8908">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-settings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../theme-settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="204" column="59" selection-start="6929" selection-end="6941" vertical-scroll-proportion="-6.1153846" vertical-offset="3309" max-vertical-offset="4454">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../templates/maintenance-page.tpl.php" />
+        <option value="$PROJECT_DIR$/../../../modules/art_module/art_portfolio/theme/views-view-fields--portfolio.tpl.php" />
+        <option value="$PROJECT_DIR$/../templates/view/flexslider/views-view--flex-slider--block.tpl.php" />
+        <option value="$PROJECT_DIR$/../templates/view/flexslider/views-view-fields--flex-slider--block.tpl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/node--product-display.tpl.php" />
+        <option value="$PROJECT_DIR$/../templates/node/portfolio/node--portfolio.tpl.php" />
+        <option value="$PROJECT_DIR$/../template.php" />
+        <option value="$PROJECT_DIR$/../templates/comment/comment.tpl.php" />
+        <option value="$PROJECT_DIR$/../js/custom.js" />
+        <option value="$PROJECT_DIR$/../../../modules/art_module/art_portfolio/theme/node--view--portfolio.tpl.php" />
+        <option value="$PROJECT_DIR$/../theme-settings/form.inc" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/views-view--our-working--block-home2.tpl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/views-view-unformatted--our-working--block-home2.tpl.php" />
+        <option value="C:/wamp/www/lawswift-profile/sites/all/themes/lawswift/theme-settings/js/script.js" />
+        <option value="$PROJECT_DIR$/../js/theme-setting/spectrum.css" />
+        <option value="$PROJECT_DIR$/../js/theme-setting/theme_settings.js" />
+        <option value="$PROJECT_DIR$/../js/jquery.queryloader2.min.js" />
+        <option value="$USER_HOME$/Desktop/Documentation/index.html" />
+        <option value="$PROJECT_DIR$/../templates/node/event/node--event_calendar.tpl.php" />
+        <option value="$PROJECT_DIR$/../../../modules/brt_panels/styles/brt_panels_block_style.inc" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/html.tpl.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/page.tpl.php" />
+        <option value="$PROJECT_DIR$/../templates/node/blog/node--blog.tpl.php" />
+        <option value="$PROJECT_DIR$/../templates/node/product/node--product-display.tpl.php" />
+        <option value="$PROJECT_DIR$/custom.css" />
+        <option value="$PROJECT_DIR$/../../../modules/art_flickr/art_flickr.module" />
+        <option value="$PROJECT_DIR$/../js/script.js" />
+        <option value="C:/wamp/www/candidate/sites/all/themes/candidate/js/script.js" />
+        <option value="C:/wamp/www/candidate/sites/all/themes/candidate/templates/html.tpl.php" />
+        <option value="Z:/candidate/sites/all/themes/candidate/templates/view/product/views-view-fields--product-block--block-2.tpl.php" />
+        <option value="Z:/candidate/sites/all/themes/candidate/templates/view/product/views-view-fields--product-block--block-1.tpl.php" />
+        <option value="Z:/candidate/sites/all/themes/candidate/css/custom.css" />
+        <option value="Z:/candidate/sites/all/themes/candidate/js/script.js" />
+        <option value="Z:/candidate/sites/all/themes/candidate/templates/html.tpl.php" />
+        <option value="$PROJECT_DIR$/color/red.css" />
+        <option value="$PROJECT_DIR$/color/Yellow.css" />
+        <option value="$PROJECT_DIR$/color/YellowGreen.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-172/node--view--projects-block--block-home.tpl.php" />
+        <option value="$PROJECT_DIR$/color/blue.css" />
+        <option value="$PROJECT_DIR$/color/main-color.css" />
+        <option value="$PROJECT_DIR$/color/green.css" />
+        <option value="$PROJECT_DIR$/color/green-yellow.css" />
+        <option value="$PROJECT_DIR$/color/grey.css" />
+        <option value="$PROJECT_DIR$/../../../modules/ctools/includes/css.inc" />
+        <option value="$PROJECT_DIR$/../theme-settings.php" />
+        <option value="$PROJECT_DIR$/../candidate.info" />
+        <option value="$PROJECT_DIR$/../templates/html.tpl.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="_" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd87f746-c5ce-42b4-aafc-57ed1737e351" name="Default" comment="" />
+      <created>1440555000557</created>
+      <updated>1440555000557</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file:C://Z:/candidate/sites/all/themes/candidate/js/script.js</url>
+          <line>461</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/color/Yellow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="1" selection-start="12228" selection-end="12228" vertical-scroll-proportion="0.0" vertical-offset="9216" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="33" selection-start="1983" selection-end="1983" vertical-scroll-proportion="2.1146712" vertical-offset="378" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-172/node--view--projects-block--block-home.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="74" selection-start="1784" selection-end="1847" vertical-scroll-proportion="-13.730769" vertical-offset="306" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="573" column="4" selection-start="11969" selection-end="12340" vertical-scroll-proportion="0.0" vertical-offset="9233" max-vertical-offset="10013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../candidate/sites/all/modules/ctools/includes/css.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="33" selection-start="5674" selection-end="5674" vertical-scroll-proportion="-11.115385" vertical-offset="1785" max-vertical-offset="8925">
+          <folding>
+            <marker date="1455875500589" expanded="true" signature="-1:-1" placeholder="SELECT filen..." />
+            <marker date="1455875500589" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1455875500589" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../modules/ctools/includes/css.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="32" selection-start="4954" selection-end="4954" vertical-scroll-proportion="0.36823106" vertical-offset="1632" max-vertical-offset="8925">
+          <folding>
+            <marker date="1460706323642" expanded="true" signature="-1:-1" placeholder="SELECT filen..." />
+            <marker date="1460706323642" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1460706323642" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/YellowGreen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="456" column="34" selection-start="9193" selection-end="9193" vertical-scroll-proportion="0.1079258" vertical-offset="7688" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/main-color.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="22" selection-start="10524" selection-end="10530" vertical-scroll-proportion="0.3633157" vertical-offset="8311" max-vertical-offset="9741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/green.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="0" selection-start="4870" selection-end="4870" vertical-scroll-proportion="0.24789207" vertical-offset="4086" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/green-yellow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="0.3726813" vertical-offset="0" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../candidate.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="23" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../theme-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="59" selection-start="6929" selection-end="6941" vertical-scroll-proportion="-6.1153846" vertical-offset="3309" max-vertical-offset="4454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color/grey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../templates/html.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="627" column="43" selection-start="24206" selection-end="24206" vertical-scroll-proportion="0.48601398" vertical-offset="10381" max-vertical-offset="12325">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
