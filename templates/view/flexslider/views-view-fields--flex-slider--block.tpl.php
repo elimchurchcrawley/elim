@@ -29,10 +29,10 @@ if(!empty($row->field_field_single_image)){
     $image = file_create_url($row->field_field_single_image[0]['raw']['uri']);
 }
 ?>
-<li <?php if(isset($fields['field_single_image'])):?>style="background:url('<?php print $image;?>')"<?php endif;?>>
-    <div class="slide <?php if(isset($fields['field_style_slider'])): print $fields['field_style_slider']->content; endif;?>">
-        <?php if(isset($fields['body'])): print $fields['body']->content; endif;?>
-    </div>
+<li>
+   <?php if(isset($fields['body'])): print $fields['field_single_image']->content; endif;?>
+   <div class="slide ">
+   </div>
 </li>
 <?php unset($fields['field_single_image']);?>
 <?php unset($fields['body']);?>
