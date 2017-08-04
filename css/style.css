@@ -5822,7 +5822,7 @@ blockquote.link-quote:after{
 }
 
 .divider + .numeric-pagination{
-	margin-top:-15px;
+	margin-top:15px;
 }
 
 .divider.light{
