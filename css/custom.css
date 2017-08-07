@@ -175,7 +175,7 @@ html body.admin-menu{margin-top: 0 !important;}
     color: #fff;
 }
 
-.numeric-pagination{margin-top: -15px}
+.numeric-pagination{margin-top: 15px}
 .page-testimonials .numeric-pagination .pager{margin-bottom: 0}
 .numeric-pagination ul.pager li a{padding: 0;text-align: center;width: 30px;height: 30px;line-height: 2em}
 .numeric-pagination ul.pager li{display: inline-block}
