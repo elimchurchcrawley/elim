@@ -56,8 +56,9 @@ img.align-right{
 }
 
 iframe{
-	width:100%;
-	border:none;
+/* changed to fix youtube embed */
+        max-width:100%;
+        border:none;
 }
 
 #qLbar{
@@ -7160,6 +7161,13 @@ input.numeric-input:focus{
 	max-width: 100%	
 	}
 /* end of added by Graeme */
+
+/* fix for table on mobile */
+        thead {
+        visibility:collapse
+        }
+/* end of fix for table on mobile */
+
 	.customize-box{
 		display:none!important;
 	}

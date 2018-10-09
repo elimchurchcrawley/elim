@@ -78,13 +78,6 @@ global $base_path;
             <div class="post-header">
                 <h2><a href="<?php print $node_url;?>"><?php print $title;?></a></h2>
                 <div class="post-meta">
-                    <span><?php print t('by');?> <a href="<?php print $base_path.$link; ?>"><?php print $node ->name; ?></a></span>
-                    <?php if($data == 'blog-v1'):?>
-                    <span class="categories"><?php print t('in');?> <?php print candidate_format_comma_field('field_blog_category', $node); ?> </span>
-                    <?php else:?>
-                    <span><?php print format_date($node->created,'custom','F j, Y, g:i a');?></span>
-                    <span><a href="<?php print $node_url;?>"><?php print $node->comment_count;?> <?php print t('Comments');?></a></span>
-                    <?php endif;?>
                 </div>
             </div>
             <div class="post-exceprt">
@@ -157,8 +150,6 @@ global $base_path;
 
                     <?php endif;?>
                     <div class="post-meta animate-onscroll">
-                        <span><?php print t('by');?> <a href="<?php print $base_path.$link; ?>"><?php print $node ->name; ?></a></span>
-                        <span class="categories"><?php print t('in');?> <?php print candidate_format_comma_field('field_blog_category', $node); ?> </span>
                     </div>
                     <div class="post-content">
                         <?php if(isset($content['body'])): print render($content['body']); endif;?>
@@ -231,9 +222,6 @@ global $base_path;
 							<img src="<?php print  $single_image; ?>" alt="">
 						<?php endif;?>
 						<div class="post-meta animate-onscroll">
-								<span><?php print t('by');?> <a href="<?php print $base_path.$link; ?>"><?php print $node ->name; ?></a></span>
-                                <span><?php print format_date($node->created,'custom','F j, Y, g:i a');?></span>
-                                <span><a href="<?php print $node_url;?>"><?php print $comment_count;?> <?php print t('Comments');?></a></span>
                         </div>
 						<div class="post-content">
 							<?php if(isset($content['body'])): print render($content['body']); endif;?>
